@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="gitRepoV1">
+	<test name="GITRepo Test">
+		<classes>
+			<class name="com.gitRepo.testCases.TC_CreateRepo_001" />
+			<class name="com.gitRepo.testCases.TC_CreateIssue_002" />
+			<class name="com.gitRepo.testCases.TC_AddComment_003" />
+			<class name="com.gitRepo.testCases.TC_AddCommentMentionIssue_004" />
+			<class name="com.gitRepo.testCases.TC_DeleteRepo_005" /> 
+		</classes>
+	</test>
+</suite>

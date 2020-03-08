@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [gitRepoV1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GITRepo Test(failed)">
+    <classes>
+      <class name="com.gitRepo.testCases.TC_DeleteRepo_005">
+        <methods>
+          <include name="delRepository"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gitRepo.testCases.TC_DeleteRepo_005 -->
+    </classes>
+  </test> <!-- GITRepo Test(failed) -->
+</suite> <!-- Failed suite [gitRepoV1] -->

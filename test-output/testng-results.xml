@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-08T17:38:58 IST" name="gitRepoV1" finished-at="2020-03-08T17:39:30 IST" duration-ms="32737">
+    <groups>
+    </groups>
+    <test started-at="2020-03-08T17:38:58 IST" name="GITRepo Test" finished-at="2020-03-08T17:39:30 IST" duration-ms="32737">
+      <class name="com.gitRepo.testCases.TC_DeleteRepo_005">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.gitRepo.testCases.TC_DeleteRepo_005@45018215]" started-at="2020-03-08T17:38:58 IST" name="setup" finished-at="2020-03-08T17:39:15 IST" duration-ms="17183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="delRepository()[pri:0, instance:com.gitRepo.testCases.TC_DeleteRepo_005@45018215]" started-at="2020-03-08T17:39:15 IST" name="delRepository" finished-at="2020-03-08T17:39:28 IST" duration-ms="12848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delRepository -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gitRepo.testCases.TC_DeleteRepo_005@45018215]" started-at="2020-03-08T17:39:28 IST" name="tearDown" finished-at="2020-03-08T17:39:30 IST" duration-ms="2605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gitRepo.testCases.TC_DeleteRepo_005 -->
+    </test> <!-- GITRepo Test -->
+  </suite> <!-- gitRepoV1 -->
+</testng-results>
